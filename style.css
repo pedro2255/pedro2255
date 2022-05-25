@@ -1,0 +1,71 @@
+.conteudo {
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-position-y:790px;
+    background-position-x: center;
+    background-size: 1380px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.conteiner {
+    text-align: center;
+    position: relative;
+    top: 220px;
+    width: 100%;
+}
+.conteudo .conteiner .titulo {
+    font-family: helvetica;
+    font-size: 110px;
+    color: aliceblue;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.39);
+    width: 100%;
+}
+
+.conteudo .conteiner .paragrafo{
+    font-family: Helvetica;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.39);
+
+
+}
+
+.conteudo .conteiner .frase {
+    font-family: Helvetica;
+    color: aliceblue;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.39);
+    margin-top: 150px;
+    animation: flutuar 5s infinite;
+}
+
+.conteudo .conteiner a {
+    text-decoration: none;
+}
+
+.autor{
+    color: white;
+    font-family: Helvetica;
+    display: none;
+    margin-top: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+@keyframes flutuar {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(5px);
+    }
+
+   
+}
+
+.titulo2 {
+    background-color: rgba(134, 68, 68, 0.479);
+}
